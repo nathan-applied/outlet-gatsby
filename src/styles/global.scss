@@ -1,0 +1,50 @@
+
+body {
+    font-family: Montserrat,Open Sans,sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    background: #6d7890;
+    color: #fff;
+    padding: 15px;
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .text-center {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+        font-size: 21px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        text-transform: none;
+        padding: 20px;
+        margin-top: 60px;
+    }
+    .state-pane {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        .state-col {
+            .state {
+                font-size: 18px;
+                margin-bottom: 8px;
+                display: block;
+            }
+            ul {
+                margin-left: 0px;
+                li {
+                    list-style: none;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}
