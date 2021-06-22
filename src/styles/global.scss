@@ -4,6 +4,20 @@ body {
     font-size: 16px;
 }
 
+header {
+    .switch-site {
+        background: #00529f;
+        height: 40px;
+
+        ul {
+            
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
 footer {
     background: #6d7890;
     color: #fff;
